@@ -1,0 +1,81 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+.row{
+    background-color: whitesmoke;
+    border-radius: 45px;
+    box-shadow: 12px 12px 27px;
+    width:auto;
+    height:auto;
+    text-align:center;
+
+}
+img{
+    width: 250%;
+    height:37.5rem;
+    border-top-left-radius:45px;
+    border-bottom-left-radius:45px;
+    border-top-right-radius:45px ;
+    border-bottom-right-radius:45px; 
+}
+.login h1{
+    font-size: 3rem;
+    font-weight: 300;
+}
+.inp{
+    height: 50px;
+    width: 70%;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: -26px -19px 30px -19px rgba(0, 0, 0, 0.45);
+    background: radial-gradient(circle, rgb(103, 241, 223) 9%, rgb(148, 233, 219) 61%);
+}
+
+.btn1{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 60px;
+    background-color: #000000;
+    color: white;
+}
+.btn1:hover{
+    background-color:#27bb94 ;
+    transition: linear 0.5s;
+}
+.fa-facebook{
+    padding: 10px;
+    font-size: 100px;
+     color: antiquewhite;
+}
+.fa-facebook:hover{
+    padding:10px;
+    font-size:100px;
+
+}
+.fa-google{
+    padding:10px;
+    font-size:50px;
+    color:yellow;
+
+}
+.fa-instagram{
+    padding:10px;
+    font-size:50px;
+    color: rgb(250, 24, 99);
+
+}
+.fa-twitter{
+    padding:10px;
+    font-size:100px;
+    color: aqua;
+
+}
+p{
+    padding-top:20px;
+    color: whitesmoke;
+    font-size: medium;
+}
